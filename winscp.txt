@@ -1,0 +1,11 @@
+open sftp://pi:gruppe3@172.20.10.5/ -hostkey="ssh-ed25519 256 wEqIbMGTZIBrMB1MEJIJIYPpMcx1s4n66WZ+1lLS7UA="
+
+cd /home/pi/Desktop
+lcd C:\Users\Kristoffer\Desktop\curling
+
+get image.png
+
+exit
+
+# Execute the script using a command like:
+# "C:\Program Files (x86)\WinSCP\WinSCP.exe" /log="C:\writable\path\to\log\WinSCP.log" /ini=nul /script="C:\path\to\script\script.txt"
